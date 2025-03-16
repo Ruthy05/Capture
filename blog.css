@@ -423,7 +423,7 @@ bottom: 10px;
             padding-top: 20px;
         }
         .robot  {
-            background-image: url(../image/robot.png);
+            /* background-image: url(../image/robot.png); */
             background-size: cover;
             width:380px;
             height:200px;
