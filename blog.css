@@ -1,6 +1,7 @@
 
 body{
-    margin:0%;
+    margin:0;
+    padding: 0;
     background-color: #FAFAFB;
 }
 
@@ -20,6 +21,8 @@ nav img {
     margin-left: 80px;
     margin-top: 29px;
 }
+
+
 
 nav .left-side {
     float: left;
