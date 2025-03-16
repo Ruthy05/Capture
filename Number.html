@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Two Numbers</title>
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container{
+        width:80%;
+        height: 200px;
+        background-color: #dbdada;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+  
+}
+    
+        
+#number{
+   background-color:#ffffff;
+
+    
+}
+
+#numbers1{
+    background-color:#ffffff;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 2px;
+}
+#numbers2{
+    background-color:#ffffff;
+    font-size: 14px;
+    
+}
+h2{
+    text-align: center;
+    color: rgb(19, 18, 17);
+}
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Two Numbers</h2>
+        <label for="number1">First Number:</label>
+        <input type="number" id="number1" required>
+        
+        <label for="compare">Compare the numbers:</label>
+        <select id="compare">
+            <option value="greater">Greater than</option>
+            <option value="less">Less than</option>
+        </select>
+        
+        <label for="number2">Second Number:</label>
+        <input type="number" id="number2" required>
+        
+        <button onclick="compareNumbers()">Compare</button>
+        
+        </div>
+    
+        <script src="script.js">
+    
+    const number1 = screen (document.getElementById('number1').value);
+    const number2 = screen (document.getElementById('number2').value);
+    const compareNumbers = document.getElementById('compareNumbers').value;
+    
+         function compareNumbers(input) {
+
+    
+
+    if (compareNumbers == "greater") {
+        if (number1 > number2) {
+            alert ={number1} > {number2};
+        } 
+    }
+        else {
+            resultText = {number1} < {number2};
+             alert ={number1} < {number2};
+        }
+    }
+
+    
+
+
+        
+        
+        
+
+
+    </script>
+</body>
+</html>
